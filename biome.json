@@ -24,16 +24,6 @@
 		"lineWidth": 120
 	},
 	"files": {
-		"includes": [
-			"packages/*/src/**/*.ts",
-			"packages/*/test/**/*.ts",
-			"packages/coding-agent/examples/**/*.ts",
-			"!**/node_modules/**/*",
-			"!**/test-sessions.ts",
-			"!**/models.generated.ts",
-			"!**/*.models.ts",
-			"!packages/mom/data/**/*",
-			"!!**/node_modules"
-		]
+		"includes": ["packages/*/src/**/*.ts", "learn/**/*.ts", "!**/node_modules/**/*", "!!**/node_modules"]
 	}
 }
